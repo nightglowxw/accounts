@@ -19,8 +19,7 @@ export default struct NavBar {
           .offset({ x: item.x, y: item.qrCode ? -30 : 0 })
           .onClick(() => {
             this.currentIndex = index
-            console.log(index + '', this.currentIndex)
-
+            // console.log(index + '', this.currentIndex)
           })
       })
     }

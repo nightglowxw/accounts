@@ -1,10 +1,10 @@
 import { NavItem } from '../Type'
 
 @Component
-export  struct NavBarImage {
-  @ObjectLink NavBarItem: NavItem
-
-  @Prop isSelect:boolean
+export struct NavBarImage {
+  // @StorageLink NavBarItem: NavItem
+  NavBarItem: NavItem
+  @Prop isSelect: boolean
 
   build() {
     Column() {
