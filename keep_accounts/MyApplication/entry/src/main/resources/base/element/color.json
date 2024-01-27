@@ -1,0 +1,16 @@
+{
+  "color": [
+    {
+      "name": "base_background",
+      "value": "#F4F4FF"
+    },
+    {
+      "name": "white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "font_color",
+      "value": "#001648"
+    }
+  ]
+}
