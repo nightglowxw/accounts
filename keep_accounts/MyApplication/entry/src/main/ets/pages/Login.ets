@@ -1,3 +1,4 @@
+import router from '@ohos.router'
 import Input from '../components/Input'
 import TitleComponent from '../components/TitleComponent'
 
@@ -89,6 +90,11 @@ struct Login {
             .fontSize(17)
             .fontWeight(500)
         }
+          .onClick(() => {
+            router.replaceUrl({
+              url:'pages/MainPage/MainPage'
+            })
+          })
           .width(228)
           .height(50)
           .backgroundColor('#388FDA')
